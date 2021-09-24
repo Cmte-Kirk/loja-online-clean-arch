@@ -1,0 +1,21 @@
+{
+    "editor.codeLens": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {"language": "typescript", "autoFix": true},
+        {"language": "typescriptreact", "autoFix": true}
+    ],
+    "[typescript]": {
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+    "[typescriptreact]": {
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+
+}

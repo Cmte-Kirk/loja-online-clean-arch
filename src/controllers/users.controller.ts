@@ -1,7 +1,7 @@
 import { User } from "@models/user";
 
 export class UsersController {
-    teste(){
+    teste() {
         const user = new User();
     }
 }
